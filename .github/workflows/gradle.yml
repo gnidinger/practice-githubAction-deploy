@@ -60,4 +60,4 @@ jobs:
         aws deploy create-deployment --application-name be-35-gnidinger
         --deployment-config-name CodeDeployDefault.AllAtOnce
         --deployment-group-name be-35-gnidinger-group
-        --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
+        --s3-location bucket=be-35-gnidinger,bundleType=zip,key=practice-deploy.zip
