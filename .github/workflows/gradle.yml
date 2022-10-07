@@ -7,6 +7,8 @@
 
 name: Java CI with Gradle
 
+- name: Run chmod to make gradlew executable
+  run: chmod +x ./gradlew
 on:
   push:
     branches: [ "main" ]
